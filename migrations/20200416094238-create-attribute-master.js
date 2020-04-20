@@ -21,7 +21,7 @@ module.exports = {
         allowNull: false
       },
       MANDATORY: {
-        type: Sequelize.STRING(1)
+        type: Sequelize.STRING(1),
       }
     });
   },
